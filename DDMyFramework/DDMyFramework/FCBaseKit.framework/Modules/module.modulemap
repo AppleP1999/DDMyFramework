@@ -1,0 +1,6 @@
+framework module FCBaseKit {
+  umbrella header "FCBaseKit.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,171 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AMapFoundation (1.5.6)
+  - AMapSearch (6.6.0):
+    - AMapFoundation (~> 1.4)
+  - IQKeyboardManager (6.2.1)
+  - JCore (1.2.6)
+  - JGProgressHUD (2.0.3)
+  - JPush (3.1.2):
+    - JCore (~> 1.2.6)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.16)
+  - MJRefresh (3.1.16)
+  - MMMaterialDesignSpinner (0.2.5)
+  - mob_sharesdk (4.1.4):
+    - mob_sharesdk/ShareSDK (= 4.1.4)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.1.4):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKExtension (4.1.4):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/Mail (4.1.4):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.1.4):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo (4.1.4):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/SMS (4.1.4):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/WeChatFull (4.1.4):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKUI (4.1.4):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.2.2)
+  - PLMediaStreamingKit (2.3.3):
+    - PLMediaStreamingKit/iphoneos (= 2.3.3)
+  - PLMediaStreamingKit/iphoneos (2.3.3)
+  - ReactiveObjC (3.1.1)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SPPageMenu (3.5.0)
+  - SVProgressHUD (2.2.5)
+  - TABAnimated (2.0.6)
+  - TMSDK (0.0.17):
+    - AFNetworking
+    - JPush
+  - TMShare (0.0.10):
+    - mob_sharesdk (= 4.1.4)
+    - mob_sharesdk/ShareSDKExtension (= 4.1.4)
+    - mob_sharesdk/ShareSDKPlatforms/Mail (= 4.1.4)
+    - mob_sharesdk/ShareSDKPlatforms/QQ (= 4.1.4)
+    - mob_sharesdk/ShareSDKPlatforms/SinaWeibo (= 4.1.4)
+    - mob_sharesdk/ShareSDKPlatforms/SMS (= 4.1.4)
+    - mob_sharesdk/ShareSDKPlatforms/WeChatFull (= 4.1.4)
+    - mob_sharesdk/ShareSDKUI (= 4.1.4)
+    - TMSDK
+  - TMUserCenter (0.0.19):
+    - IQKeyboardManager
+    - Masonry
+    - MJRefresh
+    - SDCycleScrollView
+    - SDWebImage
+    - SVProgressHUD
+    - TMSDK
+    - TMShare
+    - TYAttributedLabel
+  - TYAttributedLabel (2.6.6)
+  - UMengAnalytics-NO-IDFA (4.2.5)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.2.1)
+  - AMapSearch
+  - JGProgressHUD
+  - Masonry
+  - MJExtension (~> 3.0.13)
+  - MMMaterialDesignSpinner
+  - PLMediaStreamingKit
+  - ReactiveObjC (~> 3.1.0)
+  - SDWebImage (~> 3.8.0)
+  - SPPageMenu
+  - TABAnimated
+  - TMUserCenter
+  - TMUserCenter (= 0.0.19)
+  - UMengAnalytics-NO-IDFA (~> 4.2.5)
+  - YYModel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AMapFoundation
+    - AMapSearch
+    - IQKeyboardManager
+    - JCore
+    - JGProgressHUD
+    - JPush
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - MMMaterialDesignSpinner
+    - mob_sharesdk
+    - MOBFoundation
+    - PLMediaStreamingKit
+    - ReactiveObjC
+    - SDCycleScrollView
+    - SDWebImage
+    - SPPageMenu
+    - SVProgressHUD
+    - TABAnimated
+    - TMSDK
+    - TMShare
+    - TMUserCenter
+    - TYAttributedLabel
+    - UMengAnalytics-NO-IDFA
+    - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AMapFoundation: 20fce2a12cd152e1092afdd04379cdac21932185
+  AMapSearch: def5983c8ca1a6d7430970046dc814f6e337621d
+  IQKeyboardManager: 964638372b4a61892cc74fdfa6fd26de8c9464a2
+  JCore: cae516dd2bf1a73b578ce6e1065abd49e709e0f7
+  JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
+  JPush: d0cead70ba223a6a3b52749899ebda830dfbc49a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 54dbbf6ee728f1a88e9aad904353d007831c7847
+  MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
+  MMMaterialDesignSpinner: a548042720c2e5f04212048483085d7942ac3e81
+  mob_sharesdk: 765cc2fd2fac0a6fd7c3e6c2b10d729ad006c608
+  MOBFoundation: b5ff4038ddb9a0f06b685b86408f905a10aa147c
+  PLMediaStreamingKit: 762e312dd088b1b487c5b7f3a59b56231d1cbb71
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SPPageMenu: da182aafcec55719d5c326103cc7716c1e48f311
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TABAnimated: eb6725d1605fe1ebe621d75192d793d5b9b7a0c4
+  TMSDK: bd00a3c523bb620341e78b16f3ae113d1e5773e7
+  TMShare: 3c9366b5ef6a437658a51b040ca0b531f63e14cb
+  TMUserCenter: 8e5cf1057442791cf0b32b4a7cce0715f4893df1
+  TYAttributedLabel: cb8fc910d97eb5224936d4f692a78e042af691b2
+  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 6dc9ff98f3f16a9cf1e84570c8e70d865e927ffa
+
+COCOAPODS: 1.6.1

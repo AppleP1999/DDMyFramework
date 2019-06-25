@@ -1,0 +1,39 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'DDMyFramework' do
+ 
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for DDMyFramework
+pod 'Masonry'
+pod 'ReactiveObjC', '~> 3.1.0'
+pod 'AFNetworking', '~> 3.2.1'
+
+pod 'JGProgressHUD'
+pod 'MMMaterialDesignSpinner'
+pod 'UMengAnalytics-NO-IDFA', '~> 4.2.5'
+pod 'Masonry'
+pod 'TMUserCenter'
+
+pod 'YYModel'
+pod 'AMapSearch'
+#pod 'FCBaseKit'
+#pod 'Masonry'
+pod 'SDWebImage', '~>  3.8.0’
+#pod 'FCBaseKit'
+#pod 'IQKeyboardManager', '~> 5.0.6'
+pod 'MJExtension', '~> 3.0.13'
+pod 'PLMediaStreamingKit'
+pod 'JGProgressHUD'
+pod 'MMMaterialDesignSpinner'
+pod 'UMengAnalytics-NO-IDFA', '~> 4.2.5'
+pod 'TMUserCenter','0.0.19'
+pod 'TABAnimated'
+pod 'SPPageMenu'
+ 
+target ‘DJTest’
+target ‘DJBaseKit’
+
+end

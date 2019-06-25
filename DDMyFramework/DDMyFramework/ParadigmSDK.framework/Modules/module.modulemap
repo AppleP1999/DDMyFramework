@@ -1,0 +1,6 @@
+framework module ParadigmSDK {
+  umbrella header "ParadigmSDK.h"
+
+  export *
+  module * { export * }
+}
