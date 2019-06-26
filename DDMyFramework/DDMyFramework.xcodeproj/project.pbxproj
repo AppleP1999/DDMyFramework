@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D099F4EEB6C88F231221252 /* libPods-DDMyFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 875E2A99214BC3C2A78105D6 /* libPods-DDMyFramework.a */; };
+		7216241622C2536B006664B8 /* FYPlayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7216241522C2536B006664B8 /* FYPlayModel.m */; };
 		8AE34833C93AB7CC29A32072 /* libPods-DDMyFramework-DJTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79180D8DC0C219D9FE29A0E9 /* libPods-DDMyFramework-DJTest.a */; };
 		8B020A40223A264B00650063 /* LIvel003DescCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B020A3F223A264B00650063 /* LIvel003DescCell.m */; };
 		8B020A43223A2A9C00650063 /* Livel003ChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B020A42223A2A9C00650063 /* Livel003ChatView.m */; };
@@ -220,6 +221,8 @@
 		070F985E946D730363EF0DD7 /* Pods-DDMyFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDMyFramework.release.xcconfig"; path = "Target Support Files/Pods-DDMyFramework/Pods-DDMyFramework.release.xcconfig"; sourceTree = "<group>"; };
 		5068538F6390DD7DE1E7C959 /* Pods-DDMyFramework-DJBaseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDMyFramework-DJBaseKit.debug.xcconfig"; path = "Target Support Files/Pods-DDMyFramework-DJBaseKit/Pods-DDMyFramework-DJBaseKit.debug.xcconfig"; sourceTree = "<group>"; };
 		5AFF6E392D12C3D35D04C353 /* libPods-DDMyFramework-DJBaseKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDMyFramework-DJBaseKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7216241422C2536B006664B8 /* FYPlayModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYPlayModel.h; sourceTree = "<group>"; };
+		7216241522C2536B006664B8 /* FYPlayModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYPlayModel.m; sourceTree = "<group>"; };
 		79180D8DC0C219D9FE29A0E9 /* libPods-DDMyFramework-DJTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDMyFramework-DJTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BC2E6EE33F10878F9F4806 /* Pods-DDMyFramework-DJTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDMyFramework-DJTest.debug.xcconfig"; path = "Target Support Files/Pods-DDMyFramework-DJTest/Pods-DDMyFramework-DJTest.debug.xcconfig"; sourceTree = "<group>"; };
 		875E2A99214BC3C2A78105D6 /* libPods-DDMyFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDMyFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -581,6 +584,8 @@
 				8B26FA3222C0E723006A2471 /* NewCategoryModel.m */,
 				8B26FA3322C0E723006A2471 /* SpecialModel.h */,
 				8B26FA3422C0E723006A2471 /* SpecialModel.m */,
+				7216241422C2536B006664B8 /* FYPlayModel.h */,
+				7216241522C2536B006664B8 /* FYPlayModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1593,6 +1598,7 @@
 				8B89D6B822897E3D00E02B4B /* Livel003VideoCollectionCell.m in Sources */,
 				8BD56526223CEA6B00D8904A /* UIView+LYAdd.m in Sources */,
 				8BB8DC4B228E9A990068BC75 /* UITableView+STDTableView.m in Sources */,
+				7216241622C2536B006664B8 /* FYPlayModel.m in Sources */,
 				8BB8DC45228E9A990068BC75 /* STDTableViewCell.m in Sources */,
 				8B9796DD22B1118800C995F9 /* InformCell.m in Sources */,
 				8BD1612922B373AE00CDB5B8 /* FirstViewController.m in Sources */,

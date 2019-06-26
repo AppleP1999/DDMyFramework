@@ -89,7 +89,7 @@
 
 @property (nonatomic, assign) NSInteger maxPageId;
 
-@property (nonatomic, strong) NSArray<DTracks_List *> *list;
+@property (nonatomic, copy) NSArray<DTracks_List *> *list;
 
 @property (nonatomic, assign) NSInteger pageId;
 
@@ -110,6 +110,7 @@
 @property (nonatomic, copy) NSString *nickname;
 /**  播放地址 */
 @property (nonatomic, copy) NSString *playUrl64;
+
 @property (nonatomic, assign) NSInteger userSource;
 
 @property (nonatomic, assign) NSInteger processState;

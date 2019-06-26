@@ -7,12 +7,12 @@
 //
 
 #import "BaseViewModel.h"
- 
+ #import "DestinationModel.h"
 /**
  *  选集VM
  */
 @interface TracksViewModel : BaseViewModel
-
+@property (nonatomic,strong) DestinationModel *model;
 // 以albumId ,title初始化 VM
 - (instancetype)initWithAlbumId:(NSInteger)albumId title:(NSString *)title isAsc:(BOOL)asc;
 - (instancetype)initWithitemModel:(NSInteger )itemMel;

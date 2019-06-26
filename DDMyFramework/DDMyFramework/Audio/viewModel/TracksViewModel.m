@@ -12,7 +12,7 @@
 #import "FYPlayManager.h"
 #import <MJExtension/MJExtension.h>
 @interface TracksViewModel ()
-@property (nonatomic,strong) DestinationModel *model;
+//@property (nonatomic,strong) DestinationModel *model;
 @property (nonatomic) NSInteger  itemModel;
 
 @end
@@ -28,22 +28,28 @@
     return self;
 }
 
-- (instancetype)initWithitemModel:(NSInteger )itemMel {
+- (instancetype)initWithitemModel:(NSInteger )itemMel
+{
     if (self = [super init]) {
         _itemModel = itemMel;
     }
     return self;
 }
 
-- (void)getDataCompletionHandle:(void (^)(NSError *))completed {
-    self.dataTask = [FYMoreNetManager getTracksForAlbumId:_albumId mainTitle:_title idAsc:_asc completionHandle:^(DestinationModel* responseObject, NSError *error) {
-        self.model = responseObject;
-        completed(error);
-
-    }];
+- (void)getDataCompletionHandle:(void (^)(NSError *))completed
+{
+    self.dataTask = [FYMoreNetManager getTracksForAlbumId:_albumId mainTitle:_title idAsc:_asc completionHandle:
+                     ^(DestinationModel* responseObject, NSError *error){
+                         
+                         self.model = responseObject;
+                         completed(error);
+                    }];
+    
+    
 }
 
-- (void)getItemModelData:(void (^)(NSError *))completed {
+- (void)getItemModelData:(void (^)(NSError *))completed
+{
     
     if (_itemModel == historyItem) {
         NSArray *managerArray = [[FYPlayManager sharedInstance] historyMusicItems];

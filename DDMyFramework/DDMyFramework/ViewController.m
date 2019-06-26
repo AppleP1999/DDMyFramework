@@ -52,6 +52,17 @@
 - (IBAction)slider:(UISlider *)sender 
 {
 	TracksViewModel * model  = [[TracksViewModel  alloc] initWithitemModel:1];
+    
+    DTracks * t = [[DTracks  alloc] init];
+    DTracks_List * list = DTracks_List.new;
+    list.duration = 360;
+    list.playUrl64 = @"";
+    list.title = @"";
+    list.t = @"";
+    t.list = @[list];
+    
+    model.model.tracks = t;
+    
    [kFYPlayManagerInstance playWithModel:model indexPathRow:0];
 }
 
