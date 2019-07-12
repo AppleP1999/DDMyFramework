@@ -45,8 +45,6 @@
 - (IBAction)test:(id)sender 
 {
  
-//	 InformListViewController * vc = [[InformListViewController alloc] init];
-//	 [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (IBAction)slider:(UISlider *)sender 
@@ -58,7 +56,7 @@
     list.duration = 360;
     list.playUrl64 = @"";
     list.title = @"";
-    list.t = @"";
+ 
     t.list = @[list];
     
     model.model.tracks = t;
@@ -71,13 +69,14 @@
 -(void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event{
 //	[_btn takeBack];
 }
-- (void)viewDidLoad {
+- (void)viewDidLoad 
+{
 	[super viewDidLoad];
  	FCRollingBGView *btn = [[FCRollingBGView  alloc] init];
 	self.btn = btn;
  
 //	Livel003PicFocusView *  tt2View  =[[Livel003PicFocusView alloc] initWithFrame:CGRectMake(0, 280, 100, 40)];
-//	[self.view addSubview:tt2View];
+//	[self.view addSubview:tt2View]; 电饭锅
 //	self.scanImage = [[UIImageView  alloc] initWithFrame:CGRectMake(100, 250, 80, 80)];
 // 	self.scanImage2 = [[UIImageView  alloc] initWithFrame:CGRectMake(15, 15, 50, 50)];
 //// 	self.scanImage2.
